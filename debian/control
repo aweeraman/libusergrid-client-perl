@@ -2,20 +2,23 @@ Source: libusergrid-client-perl
 Section: perl
 Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Anuradha Weeraman <anuradha@sendai>
+Uploaders: Anuradha Weeraman (anu) <aweeraman@gmail.com>
 Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: perl
+Build-Depends-Indep: perl, libmoose-perl, libnamespace-autoclean-perl, liblog-log4perl-perl, librest-client-perl, liburi-template-perl
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libusergrid-client-perl.git
-Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libusergrid-client-perl.git
 Homepage: https://metacpan.org/release/Usergrid-Client
 Testsuite: autopkgtest-pkg-perl
 
 Package: libusergrid-client-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}
-Description: Usergrid Perl Client
- Encapsulates Usergrid collections and provides methods for iterating and
- paging through them.
+Description: Client for Apache Usergrid
+ This package provides a simple Perl SDK for Apache Usergrid.
  .
- This description was automagically extracted from the module by dh-make-perl.
+ Usergrid is an Open Source Backend-as-a-Service (BaaS) composed of an
+ integrated distributed NoSQL database, application layer and client
+ tier with SDKs for developers looking to rapidly build web and/or
+ mobile applications. It provides elementary services (user
+ registration & management, data storage, file storage, queues) and
+ retrieval features (full text search, geolocation search, joins) to
+ power common app features.

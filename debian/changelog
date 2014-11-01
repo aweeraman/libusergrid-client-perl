@@ -1,5 +1,5 @@
-libusergrid-client-perl (0.22-1) UNRELEASED; urgency=low
+libusergrid-client-perl (0.22-1) unstable; urgency=low
 
-  * Initial Release.
+  * Initial Release (Closes: #767657)
 
- -- Anuradha Weeraman <anuradha@sendai>  Sat, 1 Nov 2014 22:08:14 +0530
+ -- Anuradha Weeraman (anu) <aweeraman@gmail.com>  Sat, 1 Nov 2014 22:08:14 +0530
