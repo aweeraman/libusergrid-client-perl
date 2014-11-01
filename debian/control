@@ -4,14 +4,14 @@ Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Anuradha Weeraman (anu) <aweeraman@gmail.com>
 Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: perl, libmoose-perl, libnamespace-autoclean-perl, liblog-log4perl-perl, librest-client-perl, liburi-template-perl
+Build-Depends-Indep: perl, libmoose-perl, libnamespace-autoclean-perl, liblog-log4perl-perl, librest-client-perl, liburi-template-perl, libmodule-build-perl
 Standards-Version: 3.9.6
 Homepage: https://metacpan.org/release/Usergrid-Client
 Testsuite: autopkgtest-pkg-perl
 
 Package: libusergrid-client-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, libmoose-perl, libnamespace-autoclean-perl, liblog-log4perl-perl, librest-client-perl, liburi-template-perl, libmodule-build-perl
 Description: Client for Apache Usergrid
  This package provides a simple Perl SDK for Apache Usergrid.
  .
