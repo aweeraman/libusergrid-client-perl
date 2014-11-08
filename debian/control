@@ -6,6 +6,8 @@ Uploaders: Anuradha Weeraman (anu) <aweeraman@gmail.com>
 Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: perl, libmoose-perl, libnamespace-autoclean-perl, liblog-log4perl-perl, librest-client-perl, liburi-template-perl, libmodule-build-perl
 Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libusergrid-client-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libusergrid-client-perl.git
 Homepage: https://metacpan.org/release/Usergrid-Client
 Testsuite: autopkgtest-pkg-perl
 
